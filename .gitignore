@@ -1,6 +1,6 @@
 # Ignore node_modules directories in both root and frontend
 /node_modules
-frontend/
+
 # Ignore other common files and folders
 .env
 .DS_Store
