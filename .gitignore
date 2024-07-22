@@ -1,5 +1,10 @@
-/node_modules/
-frontend/node_modules/** 
-frontend/node_modules/.bin/** 
-frontend/node_modules/.cache/** 
+# Ignore node_modules directories in both root and frontend
+/node_modules
+/frontend/node_modules
+
+# Ignore other common files and folders
 .env
+.DS_Store
+dist
+build
+*.log
